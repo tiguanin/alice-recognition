@@ -33,9 +33,8 @@ public class Request {
             System.out.println(createdUrl.getUrl());
 
             // представление файла в виде массива байтов
-            String path = "C:\\Users\\admin\\Desktop\\speech.wav";
             File voice = new File(audioPath);
-            System.out.println(voice.getTotalSpace());
+            //System.out.println(voice.getTotalSpace());
             byte[] bytes = Files.readAllBytes(voice.toPath());
             System.out.println(voice.toPath());
 
