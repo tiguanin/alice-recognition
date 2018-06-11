@@ -1,5 +1,5 @@
 package com.constants;
 
 public class SpeechKitAPIKey {
-    public final static String KEY = "91101c9c-97f0-45e7-a78c-4af06e6011f7";
+    public final static String KEY = "4414c198-28cb-4d55-b73c-d2192277725a";
 }
